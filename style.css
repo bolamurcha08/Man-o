@@ -53,23 +53,24 @@
    color: #C19A6B;
  }
 
- section#conheca-nos {
-   padding: 60px 40px;
-   background-color: #FFF;
- }
+#conheca-nos .sobre-nos {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
 
- section#conheca-nos h2 {
-   font-family: 'Dancing Script', cursive;
-   font-size: 36px;
-   color: #3E2C28;
-   margin-bottom: 20px;
- }
+#conheca-nos .sobre-nos p {
+  flex: 1;
+  font-size: 18px;
+  color: #5C3A1E;
+}
 
- section#conheca-nos p {
-   font-size: 18px;
-   color: #5C3A1E;
-   max-width: 800px;
- }
+#conheca-nos .sobre-nos img {
+  max-width: 300px;
+  width: 100%;
+  border-radius: 12px;
+}
 
  footer {
    background-color: #3E2C28;
